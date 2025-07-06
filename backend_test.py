@@ -7,7 +7,6 @@ import os
 import sys
 import json
 from datetime import datetime
-import unittest
 import logging
 
 # Configure logging
