@@ -16,8 +16,8 @@ import asyncio
 from concurrent.futures import ThreadPoolExecutor
 
 # Import our AI processing modules
-from forgery_detector import ForgeryDetector
-from pdf_generator import PDFReportGenerator
+from .forgery_detector import ForgeryDetector
+from .pdf_generator import PDFReportGenerator
 
 ROOT_DIR = Path(__file__).parent
 load_dotenv(ROOT_DIR / '.env')
