@@ -23,3 +23,10 @@ numpy>=1.26.0
 python-multipart>=0.0.9
 jq>=1.6.0
 typer>=0.9.0
+# AI/ML dependencies for document forgery detection
+opencv-python>=4.9.0
+Pillow>=10.0.0
+tensorflow>=2.15.0
+scikit-learn>=1.3.0
+matplotlib>=3.7.0
+reportlab>=4.0.0
